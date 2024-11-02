@@ -1,0 +1,57 @@
+/* Sayfa genelindeki stiller */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 1s ease; /* Arka plan renk geçiş animasyonu */
+}
+
+/* Renk değiştiren butonun stili */
+#renkButonu {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Renk değiştiren butonun üzerine gelince renk değişimi */
+#renkButonu:hover {
+    background-color: #0056b3;
+}
+
+/* Yeniden başlat butonunun stili */
+#restartButton {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Yeniden başlat butonunun üzerine gelince renk değişimi */
+#restartButton:hover {
+    background-color: #218838;
+}
+
+/* Sayaç ve zamanlayıcı stili */
+#timer, #clickCounter {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
